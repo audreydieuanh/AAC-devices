@@ -7,21 +7,21 @@ package structures;
  * @author Samuel A. Rebelsky
  */
 public class KeyNotFoundException extends Exception {
-    // +--------------+------------------------------------------------
-    // | Constructors |
-    // +--------------+
+  // +--------------+------------------------------------------------
+  // | Constructors |
+  // +--------------+
 
-    /**
-     * Create a new exception.
-     */
-    public KeyNotFoundException() {
-        super("key not found");
-    } // structures.KeyNotFoundException()
+  /**
+   * Create a new exception.
+   */
+  public KeyNotFoundException() {
+    super("key not found");
+  } // structures.KeyNotFoundException()
 
-    /**
-     * Create a new exception with a particular message.
-     */
-    public KeyNotFoundException(String message) {
-        super(message);
-    } // structures.KeyNotFoundException(String)
+  /**
+   * Create a new exception with a particular message.
+   */
+  public KeyNotFoundException(String message) {
+    super(message);
+  } // structures.KeyNotFoundException(String)
 } // structures.KeyNotFoundException
