@@ -6,6 +6,12 @@ import javax.speech.Central;
 import javax.speech.synthesis.Synthesizer;
 import javax.speech.synthesis.SynthesizerModeDesc;
 
+/**
+ * Convert text to speech
+ *
+ * @author Catiem Baker
+ */
+
 public class TextSpeech {
 
   public static void main(String[] args) {

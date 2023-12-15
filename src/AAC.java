@@ -21,7 +21,7 @@ import javax.speech.synthesis.SynthesizerModeDesc;
 /**
  * Creates the AAC display for the file provided
  *
- * @author Catie Baker
+ * @author Catiem Baker
  */
 public class AAC implements ActionListener {
 
